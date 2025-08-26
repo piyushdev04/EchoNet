@@ -1,3 +1,6 @@
+Absolutely! Here’s your **full README.md** ready to copy into your project:
+
+````markdown
 # EchoNet
 
 **EchoNet** is a minimal networking project written in C that demonstrates how a basic TCP Echo Server and Client work at the socket programming level.
@@ -31,3 +34,46 @@ An **Echo Server** is one of the simplest forms of a network service:
 
 ---
 ![EchoNet](terminal_output.png)
+
+---
+
+## Setup & Run
+
+1. **Clone the repository**
+```bash
+git clone git@github.com:piyushdev04/EchoNet.git
+cd EchoNet
+````
+
+2. **Compile the project** (or use the Makefile)
+
+```bash
+make
+```
+
+3. **Run the server**
+
+```bash
+./echonet_server 8080
+```
+
+4. **Run the client** (in another terminal or pane)
+
+```bash
+./echonet_client 127.0.0.1 8080
+```
+
+5. **Send messages**
+
+* Type a message in the client terminal.
+* See it echoed back from the server.
+
+---
+
+## Notes
+
+* Make sure your firewall allows the chosen port (default: 8080).
+* Both server and client must be running on the same network if not using localhost.
+
+---
+### Thanks for reading!🍁
