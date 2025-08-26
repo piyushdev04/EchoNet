@@ -1,6 +1,3 @@
-Absolutely! Here’s your **full README.md** ready to copy into your project:
-
-````markdown
 # EchoNet
 
 **EchoNet** is a minimal networking project written in C that demonstrates how a basic TCP Echo Server and Client work at the socket programming level.
@@ -43,7 +40,7 @@ An **Echo Server** is one of the simplest forms of a network service:
 ```bash
 git clone git@github.com:piyushdev04/EchoNet.git
 cd EchoNet
-````
+```
 
 2. **Compile the project** (or use the Makefile)
 
