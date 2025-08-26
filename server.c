@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <signal.h>
 #include <unistd.h>
-#include <netdb.h>     // NI_MAXHOST, NI_MAXSERV live here
+#include <netdb.h>    
 #include <arpa/inet.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -40,7 +40,6 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    // Graceful Ctrl+C
     struct sigaction sa = {0};
     sa.sa_handler = on_sigint;
     sigaction(SIGINT, &sa, NULL);

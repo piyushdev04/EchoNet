@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
 
     int sock = -1;
     for (rp = res; rp != NULL; rp = rp->ai_next) {
-        sock = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
+        soc = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
         if (sock == -1) continue;
         if (connect(sock, rp->ai_addr, rp->ai_addrlen) == 0) break;
         close(sock);
