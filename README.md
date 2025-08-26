@@ -4,7 +4,7 @@
 
 ---
 
-## 🌐 What is an Echo Server?
+## What is an Echo Server?
 
 An **Echo Server** is one of the simplest forms of a network service:
 - A **server** listens for incoming connections on a specific IP address + port.
@@ -13,7 +13,7 @@ An **Echo Server** is one of the simplest forms of a network service:
 
 ---
 
-## ⚙️ How it works (Concept)
+## How it works (Concept)
 
 1. **Server (tcp_echo_server)**  
    - Creates a TCP socket.  
@@ -30,3 +30,4 @@ An **Echo Server** is one of the simplest forms of a network service:
    - Prints the echoed response.
 
 ---
+![EchoNet](terminal_output.png)
